@@ -1,0 +1,9 @@
+setup.py
+PHFinder/Bash_h.sh
+PHFinder/PHFinder.py
+PHFinder/Testing.sh
+PHFinder.egg-info/PKG-INFO
+PHFinder.egg-info/SOURCES.txt
+PHFinder.egg-info/dependency_links.txt
+PHFinder.egg-info/requires.txt
+PHFinder.egg-info/top_level.txt
