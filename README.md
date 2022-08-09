@@ -51,7 +51,7 @@ This command will extract fast files for every AB1 file present in the working d
 
 ## Citation
 
-Suarez-Menendez, M; Rivera-Leon, V; Robbins, J; Berube, M; Palsbøll, P. J. (2020) PHFinder: Assisted detection of point heteroplasmy in Sanger sequencing chromatograms. JOURNAL. DOI
+Suarez-Menendez, M; Rivera-Leon, V; Robbins, J; Berube, M; Palsbøll, P. J. (2022) PHFinder: Assisted detection of point heteroplasmy in Sanger sequencing chromatograms. JOURNAL. DOI
 
 ## Version
 
