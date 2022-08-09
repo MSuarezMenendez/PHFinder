@@ -26,7 +26,7 @@ PHFinder scripts can be run on UNIX systems.
 
 ## Instructions for Analysis
 
-PHFinder has been optimized to be run in a directory where the chromatograms are divided in several subfolders (see [**ExampleData**](https://github.com/MSuarezMenendez/PHFinder/tree/master/ExampleDataDirectory)). But it will analyse any chromatogram present in the working directory (no matter the directory structure).
+PHFinder has been optimized to be run in a directory where the chromatograms are divided in several subfolders (see [**ExampleDataDirectory**](https://github.com/MSuarezMenendez/PHFinder/tree/master/ExampleDataDirectory)). But it will analyse any chromatogram present in the working directory (no matter the directory structure).
 
 The arguments to use PHFinder in the terminal are the following:
 
@@ -47,7 +47,7 @@ Example run:
 
 This command will extract fast files for every AB1 file present in the working directory, align them to the provided reference and look for double peaks (small peak at least 15% the size of the main one), from position 25 of the reference to position 350 if the average quality on this region is at least 40.
 
-**\*** The test run option will automatically run 64 different combination of threshold indexes. To run this option a file named [**List_HP.csv**](https://github.com/MSuarezMenendez/PHFinder/tree/master/ExampleData/List_HP.csv) with already known heteroplasmies in the dataset has to be present in the working directory. This allows to test what set of thresholds would detect most of the known heteroplasmies with least amount of ab1 files to go through.
+**\*** The test run option will automatically run 64 different combination of threshold indexes. To run this option a file named [**List_HP.csv**](https://github.com/MSuarezMenendez/PHFinder/tree/master/ExampleDataDirectory/List_HP.csv) with already known heteroplasmies in the dataset has to be present in the working directory. This allows to test what set of thresholds would detect most of the known heteroplasmies with least amount of ab1 files to go through.
 
 ## Citation
 
