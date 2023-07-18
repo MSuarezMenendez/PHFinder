@@ -26,7 +26,7 @@ PHFinder scripts can be run on UNIX systems.
 
 ## Instructions for Analysis
 
-PHFinder has been optimized to be run in a directory where the chromatograms are divided in several subfolders (see [**ExampleDataDirectory**](https://github.com/MSuarezMenendez/PHFinder/tree/master/ExampleDataDirectory)). But it will analyse any chromatogram present in the working directory (no matter the directory structure).
+PHFinder has been optimized to be run in a directory where the chromatograms are divided in several subfolders (see [**ExampleDataDirectory**](https://github.com/MSuarezMenendez/PHFinder/tree/master/ExampleDataDirectory), data also available [**here**](https://github.com/MSuarezMenendez/PHFinder/tree/master/ExampleDataDirectory)). But it will analyse any chromatogram present in the working directory (no matter the directory structure).
 
 The arguments to use PHFinder in the terminal are the following:
 
@@ -38,7 +38,7 @@ The arguments to use PHFinder in the terminal are the following:
 + **-q** Average quality threshold for the analysed region (Default: 40)
 + **-s** Analysis starting position (based on provided reference)
 + **-e** Analysis ending position (based on provided reference)
-+ **-r** Secondary ratio thresholds for the detection of heteroplasmy (Default: 0.4)
++ **-r** Secondary ratio thresholds for the detection of heteroplasmy (Default: 0.4) Can be deactivated by setting a high value (e.g., 100)
 + **-t** Test run **\***
 
 Example run:
