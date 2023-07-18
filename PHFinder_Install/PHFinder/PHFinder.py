@@ -55,7 +55,7 @@ flag.add_argument("-s", action="store", type=int, default=1, dest="Start", help=
  where the analysis starts (Default: 1)")
 flag.add_argument("-e", action="store", type=int, dest="End", help="Position\
  where the analysis ends (Required when '-d' is provided)")
-flag.add_argument("-sr", action="store", type=float, default=0.4, dest="SRatio", help="Secondary ratios (Default:0.4)")
+flag.add_argument("-sr", action="store", type=float, default=0.4, dest="SRatio", help="Secondary ratios (Default:0.4). Can be deactivated by setting a high value (e.g., 100)")
 
 if len(sys.argv) < 2: #If no arguments are provided, help is printed
 	sys.stderr.write("PHfinder: Assisted detection of point heteroplasmy in Sanger sequencing chromatograms (AB1 files).\n\
