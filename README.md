@@ -1,4 +1,5 @@
 [![DOI](https://zenodo.org/badge/293524912.svg)](https://zenodo.org/badge/latestdoi/293524912)
+[![DOI:10.7717/peerj.16028](http://img.shields.io/badge/DOI-10.7717/peerj.16028-02a7fc.svg)](https://doi.org/10.7717/peerj.16028)
 
 # **PHFinder: Assisted detection of point heteroplasmy in Sanger sequencing chromatograms.**
 
